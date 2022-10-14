@@ -1,0 +1,38 @@
+.trigger-button {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Bree Serif';
+  color: white;
+  padding: 8px 15px 8px 15px;
+  margin: 8px;
+  background-color: #ffffff;
+  color: #223a5f;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+.popup-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.popup-image {
+  max-width: 100%;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 8%;
+}
+.popup-bg-container {
+  background-color: #ffffff;
+
+  margin-left: 8%;
+  margin-right: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.close-icon {
+  flex-grow: 0;
+}
