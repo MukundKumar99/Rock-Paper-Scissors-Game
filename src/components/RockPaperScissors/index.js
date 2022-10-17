@@ -31,7 +31,8 @@ class RockPaperScissorsGame extends Component {
   }
 
   renderRandomView = () => {
-    const num = Math.floor(Math.random() * 10) % 3
+    const {choicesList} = this.props
+    const num = Math.floor(Math.random() * choicesList.length)
     return num
   }
 
